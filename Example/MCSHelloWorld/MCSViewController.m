@@ -7,6 +7,7 @@
 //
 
 #import "MCSViewController.h"
+#import <MCSHelloWorld.h>
 
 @interface MCSViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[MCSHelloWorld alloc] logWith:@"222"];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

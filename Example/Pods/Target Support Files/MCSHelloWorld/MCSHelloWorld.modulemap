@@ -1,0 +1,6 @@
+framework module MCSHelloWorld {
+  umbrella header "MCSHelloWorld-umbrella.h"
+
+  export *
+  module * { export * }
+}

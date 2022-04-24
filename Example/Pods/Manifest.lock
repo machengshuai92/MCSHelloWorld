@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MCSHelloWorld (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MCSHelloWorld (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MCSHelloWorld:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MCSHelloWorld: 00c7f824a2b0527bcd6fff98bb5cdee364ec6263
+
+PODFILE CHECKSUM: bbc9a68aba941825d0696955bc35cd0abc32c63e
+
+COCOAPODS: 1.11.2
