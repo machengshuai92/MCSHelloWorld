@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)logWith:(NSString *)log;
 
+- (void)logWith2:(NSString *)log;
+
 @end
 
 NS_ASSUME_NONNULL_END

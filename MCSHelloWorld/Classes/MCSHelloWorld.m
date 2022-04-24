@@ -13,4 +13,8 @@
     NSLog(@"%@",log);
 }
 
+- (void)logWith2:(NSString *)log{
+    NSLog(@"%@",log);
+}
+
 @end
